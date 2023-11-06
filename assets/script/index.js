@@ -42,6 +42,9 @@ function getSystemPlatform() {
     else if (clientOs.indexOf('Linux') !== -1 && clientOs.indexOf('X11') !== -1) {
         finalOs = "Linux"
     }
+    else if (clientOs.indexOf('Android') !== -1) {
+        finalOs = "Android";
+    }
     
     return finalOs;
 }
