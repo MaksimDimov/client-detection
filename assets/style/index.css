@@ -1,0 +1,103 @@
+
+@import url(./reset.css);
+
+
+/* Main */
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Noto Sans Linear B', sans-serif;
+    height: 100dvh;
+    overflow: hidden;
+}
+
+.container {
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+  }
+  
+  p {
+    width: 100%;
+  }
+/* sections */
+
+.section {
+    justify-content: center;
+    width: 300px;
+    height: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    margin-top: 30px;
+    text-align: center;
+    /* vertical-align: middle; */
+    align-items: center;
+}
+
+.section-name {
+    width:299px;
+    height: 40px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    background-color: rgb(167, 176, 184);
+    white-space: pre;
+}
+
+.network-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    border: 0.3px solid #000;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.client-details {
+    text-align: left;
+    margin-left: 20px;
+    flex: 2;
+}
+
+h3 {
+    font-weight: 200;
+}
+
+.top {
+    margin-top: 10px;
+}
+
+.bottom {
+    margin-bottom: 5px;
+}
+
+.section-battery {
+    height: 120px;
+}
+
+.green {
+    background-color: rgb(61, 210, 71);
+}
+
+.grey {
+    background-color: rgb(130, 136, 141);
+}
+
+@media (width: 800px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+    }
+    .section {
+        width: 100%;
+    }
+}
+
+
+

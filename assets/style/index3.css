@@ -1,0 +1,42 @@
+@charset "utf-8";
+ 
+:root {
+ --app-dark-bg: #181621;
+ --app-dark-gray-bg: #242329;
+ --app-white: #fff;
+ --app-red: #ff3c57;
+ --app-red-hover: #d91e4a;
+ --app-blue: #3c57ff;
+ --app-blue-hover: #364ee6;
+}
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Nunito Sans', Arial, sans-serif;
+}
+ 
+body {
+  color: var(--app-white);
+ background-color: var(--app-dark-bg);
+ 
+}
+ 
+.container {
+ width: min(100% - 30px, 1080px);
+ margin-inline: auto;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Main */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+ 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
